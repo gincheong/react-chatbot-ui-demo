@@ -1,26 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import ChatBotUI, { MessageList, TextInput } from 'react-chatbot-ui';
+// import ChatBotUI, { MessageList } from './lib';
+import styled from 'styled-components';
+import produce from 'immer';
 
-function App() {
+const StyledApp = styled.div`
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+`;
+
+export const App = () => {
+  const [messageList, setMessageList] = useState<MessageList>([
+    {
+      mid: 1,
+      type: 'left', 
+      youtube: 'https://www.youtube.com/watch?v=2EKrkzG0eVQ'
+    },
+    {
+      mid: 2,
+      type: 'left', 
+      image: 'https://random.imagecdn.app/600/600'
+    },
+  ]);
+ 
+  const config = {
+    inputBox: true,
+    sendCallback: (value: TextInput) => {
+      setMessageList(
+        produce(messageList, draft => {
+          draft.push({
+            mid: messageList.length + 1, 
+            type: 'right',
+            text: value.payload
+          })
+        })
+      );
+    },
+  }
+
+  useEffect(() => {
+    console.log(messageList);
+  }, [messageList]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledApp>
+      <ChatBotUI
+        messageList={messageList}
+        config={config}
+      />
+    </StyledApp>
   );
-}
-
-export default App;
+};
+ 
