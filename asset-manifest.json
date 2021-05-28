@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/react-chatbot-ui-demo/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/react-chatbot-ui-demo/static/js/main.1e3bf283.chunk.js",
-    "main.js.map": "/react-chatbot-ui-demo/static/js/main.1e3bf283.chunk.js.map",
-    "runtime-main.js": "/react-chatbot-ui-demo/static/js/runtime-main.ab74d858.js",
-    "runtime-main.js.map": "/react-chatbot-ui-demo/static/js/runtime-main.ab74d858.js.map",
-    "static/js/2.e4756684.chunk.js": "/react-chatbot-ui-demo/static/js/2.e4756684.chunk.js",
-    "static/js/2.e4756684.chunk.js.map": "/react-chatbot-ui-demo/static/js/2.e4756684.chunk.js.map",
-    "static/js/3.2d427e76.chunk.js": "/react-chatbot-ui-demo/static/js/3.2d427e76.chunk.js",
-    "static/js/3.2d427e76.chunk.js.map": "/react-chatbot-ui-demo/static/js/3.2d427e76.chunk.js.map",
+    "main.js": "/react-chatbot-ui-demo/static/js/main.b4ba6719.chunk.js",
+    "main.js.map": "/react-chatbot-ui-demo/static/js/main.b4ba6719.chunk.js.map",
+    "runtime-main.js": "/react-chatbot-ui-demo/static/js/runtime-main.e8fbde74.js",
+    "runtime-main.js.map": "/react-chatbot-ui-demo/static/js/runtime-main.e8fbde74.js.map",
+    "static/js/2.2cc667bf.chunk.js": "/react-chatbot-ui-demo/static/js/2.2cc667bf.chunk.js",
+    "static/js/2.2cc667bf.chunk.js.map": "/react-chatbot-ui-demo/static/js/2.2cc667bf.chunk.js.map",
+    "static/js/3.d4cd4ad3.chunk.js": "/react-chatbot-ui-demo/static/js/3.d4cd4ad3.chunk.js",
+    "static/js/3.d4cd4ad3.chunk.js.map": "/react-chatbot-ui-demo/static/js/3.d4cd4ad3.chunk.js.map",
     "index.html": "/react-chatbot-ui-demo/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/react-chatbot-ui-demo/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.e4756684.chunk.js.LICENSE.txt": "/react-chatbot-ui-demo/static/js/2.e4756684.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/react-chatbot-ui-demo/static/media/logo.6ce24c58.svg"
+    "static/js/2.2cc667bf.chunk.js.LICENSE.txt": "/react-chatbot-ui-demo/static/js/2.2cc667bf.chunk.js.LICENSE.txt",
+    "static/media/YouTube_icon_full-color.svg": "/react-chatbot-ui-demo/static/media/YouTube_icon_full-color.01dc3030.svg",
+    "static/media/YouTube_icon_light.svg": "/react-chatbot-ui-demo/static/media/YouTube_icon_light.38e1b757.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab74d858.js",
-    "static/js/2.e4756684.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.1e3bf283.chunk.js"
+    "static/js/runtime-main.e8fbde74.js",
+    "static/js/2.2cc667bf.chunk.js",
+    "static/js/main.b4ba6719.chunk.js"
   ]
 }
